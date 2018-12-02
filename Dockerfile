@@ -1,2 +1,2 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.5.1
+FROM blacktop/elasticsearch:6.5
 ADD synonyms.txt /usr/share/elasticsearch/config/
