@@ -1,2 +1,2 @@
-FROM blacktop/elasticsearch:7.5.2
+FROM blacktop/elasticsearch:7.10.1
 ADD synonyms.txt /usr/share/elasticsearch/config/
